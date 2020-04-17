@@ -62,7 +62,6 @@ func main(){
 		key = concat(key,difference)
 	}
 	xor1 = xor(key, ipad)
-	//working till here
 	
 	//now append xor1 to the main message
 
